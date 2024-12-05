@@ -1,0 +1,39 @@
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:#f1b340; left:200px; top:0px;}
+    50%  {background-color:rgb(238, 255, 7); left:200px; top:200px;}
+    75%  {background-color:rgb(255, 174, 23); left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+body {
+    background-color: rgb(149, 255, 255);
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+}
+#heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90hv;
+}
+
+#display{
+    width: 50%;
+    height:50px;
+    overflow: hidden;
+}
+
+button{
+    background-color: rgb(235, 235, 235);
+    border-radius: 4px;
+    width: 20%;
+    height: 50px
+    border none;
+    
+
+}
+button:hover{
+    background-color: rgb(206, 206, 206);
+}
