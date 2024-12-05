@@ -76,4 +76,8 @@ button {
 button:hover {
     background-color: rgb(206, 206, 206);
 }
+button:active {
+    background-color: #b5b5b5;
+;
+}
 
